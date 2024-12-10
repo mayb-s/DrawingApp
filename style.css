@@ -1,0 +1,137 @@
+html, body 
+{
+  margin: 0px;
+  height: 100%;
+  
+}
+
+
+#sidebar {
+	grid-area: sidebar;
+	overflow-y: scroll;
+	/* width:81px; */
+
+}
+
+
+/* added scroll to canvas to prevent page from overflowing */
+#content {
+	grid-area: content;
+	overflow-x: scroll;
+	overflow-y: scroll;
+	
+}
+
+
+.header {
+	grid-area: header;
+	font-family: Helvetica, sans-serif
+}
+
+.footer{
+  grid-area: footer;
+}
+
+/* adjusted to fit without scroll */
+.sideBarItem{
+	
+	background:white;
+	width: 40px;
+	height: 40px;
+	max-height: 50px;
+	max-width: 50px;
+	margin: 10px;
+	padding:5px;
+
+}
+
+.sideBarItem img{
+	
+	max-height: 40px;
+	max-Width:40px;
+}
+
+
+.colourPalette{
+	grid-area: colourP;
+	display:flex;
+	flex-direction:grid;
+	flex-flow: wrap;
+}
+
+
+.colourSwatches{
+	box-sizing: border-box; 
+	width: 40px;
+	height: 40px;
+	max-height: 40px;
+	max-width: 40px;
+	margin: 5px;
+}
+
+/* adjusted the columns to fit the shapesGrid and options 
+changed columns and areas*/
+	.wrapper {
+		display: grid;
+		height: 100%;
+		grid-template-columns: 90px 250px 400px 1fr;
+		grid-template-rows: 35px minmax(650px, 1fr) 160px;
+		grid-template-areas:
+               "header header header header"
+				"sidebar content content content"
+                "colourP colourP shapesGrid options";
+		background-color: #fff;
+		color: #444;
+	}
+	
+	
+.box {
+  background-color: #444;
+  color: #fff;
+  font-size: 150%;
+  
+}
+
+/* shapebox grid styling, similar to colourPalette */
+#shapesGrid{
+	
+	display:flex;
+	flex-direction:grid;
+	flex-flow: wrap;
+	max-height: 160px;
+
+}
+
+/* background for icons set and evenly spaced */
+.shape{
+
+	background-color: white;
+	width: 40px;
+	height: 40px;
+	max-height: 50px;
+	max-width: 50px;
+	padding:5px;
+	margin: 10px;
+
+}
+
+/* image size */
+.shape img{
+	max-height: 40px;
+	max-Width:40px;
+}
+
+
+.options{
+	grid-area: options;
+	padding: 15px;
+	flex-direction:grid;
+	flex-flow: wrap;
+	
+}
+
+
+
+.header {
+  background-color: #999;
+}

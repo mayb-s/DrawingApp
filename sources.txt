@@ -1,0 +1,96 @@
+
+SOURCES:
+
+Main References:
+https://p5js.org/reference/
+
+
+Eraser Tool:
+{
+*freehandTool.js
+
+Eraser Icon
+*https://www.iconexperience.com/v_collection/icons/?icon=eraser2
+}
+
+
+BucketTool:
+{
+*freehandTool.js
+
+Bucket Icon
+*https://www.pngitem.com/middle/ibhwbTb_transparent-paint-bucket-png-color-paint-bucket-icon/
+
+Functions
+*https://p5js.org/reference/
+
+Flood Fill Algorithm
+*https://chat.openai.com/
+
+Flood Fill how it works video
+*https://www.youtube.com/watch?v=VuiXOc81UDM&t=214s
+}
+
+
+Shapes:
+{
+heart
+*<a href="https://www.flaticon.com/free-icons/heart" 
+title="heart icons">Heart icons created by Freepik - Flaticon</a>
+*https://p5js.org/reference/#/p5/bezierVertex
+*https://editor.p5js.org/Mithru/sketches/Hk1N1mMQg
+
+star
+*<a href="https://www.flaticon.com/free-icons/star" 
+title="star icons">Star icons created by Pixel perfect - Flaticon</a>
+*https://math.stackexchange.com/questions/3582342/coordinates-of-the-vertices-of-a-five-pointed-star
+
+circle
+*<a href="https://www.flaticon.com/free-icons/circle" 
+title="circle icons">Circle icons created by Freepik - Flaticon</a>
+
+square
+*<a href="https://www.flaticon.com/free-icons/rectangle" 
+title="rectangle icons">Rectangle icons created by Vitaly Gorbachev - Flaticon</a>
+
+triangle
+*<a href="https://www.flaticon.com/free-icons/triangle" 
+title="triangle icons">Triangle icons created by Roundicons Premium - Flaticon</a>
+*https://byjus.com/maths/area-of-equilateral-triangle/
+
+null
+*<a href="https://www.flaticon.com/free-icons/nothing" 
+title="nothing icons">Nothing icons created by Freepik - Flaticon</a>
+}
+
+
+Shapes Grid:
+{
+*colourPalette.js
+*toolbox.js
+*sketch.js
+*index.html
+*style.css
+}
+
+
+Slider Tool:
+{
+*https://p5js.org/reference/
+*https://p5js.org/reference/#/p5/createDiv
+*https://p5js.org/reference/#/p5/createSlider
+
+}
+
+Color Canvas Icon:
+
+*<a href="https://www.flaticon.com/free-icons/background" 
+title="background icons">Background icons created by Smashicons - Flaticon</a>
+
+Load Image Button:
+
+createFileInput()
+https://p5js.org/reference/#/p5/createFileInput
+
+
+

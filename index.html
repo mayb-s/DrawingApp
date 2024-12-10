@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="lib/p5.min.js"></script>
+    <script src="lib/p5.dom.js"></script>
+
+    <script src="sketch.js"></script>
+    <script src="toolbox.js"></script>
+    <script src="colourPalette.js"></script>
+    <script src="helperFunctions.js"></script>
+    <script src="freehandTool.js"></script>
+    <script src="lineToTool.js"></script>
+    <script src="mirrorDrawTool.js"></script>
+    <script src="sprayCanTool.js"></script>
+    
+
+    <!-- new functions -->
+    <script src="eraserTool.js"></script>
+    <script src="bucketTool.js"></script>
+    <script src="shapesGrid.js"></script>
+    <script src="circle.js"></script>
+    <script src="square.js"></script>
+    <script src="triangle.js"></script>
+    <script src="star.js"></script>
+    <script src="heart.js"></script>
+    <script src="null.js"></script>
+    <script src="slider.js"></script>
+    <script src="colorCanvas.js"></script>
+
+    <!---->
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  	<div class="wrapper">
+      
+      <div class="box header">My Drawing App
+
+        <button id="clearButton">Clear</button>
+        <button id="saveImageButton">Save Image</button>
+        <button id="goBackButton">Go Back</button>
+        <!-- added new button for loading images -->
+        <button id="loadImageButton">Load Image</button>
+        <!--  -->
+
+        
+      </div>
+      
+      <div class="box" id="sidebar"></div>
+      
+      <div id="content"></div>
+      <div class="box colourPalette"></div>
+
+      <!--new class toolbox  -->
+      <div class="box" id="shapesGrid"></div>
+      <!---->
+      
+      <div class="box options"></div>
+    
+    </div>
+
+      
+	</div>
+  </body>
+</html>
